@@ -12,7 +12,7 @@ tasks = [
 # Homepage
 @app.route("/")
 def home():
-    return jsonify({"message": "Welcome to DevTracker API!"})
+    return jsonify({"message": "My first automatic deployment!"})
 
 # Get all tasks
 @app.route("/api/tasks", methods=["GET"])
